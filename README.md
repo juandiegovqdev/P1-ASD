@@ -7,7 +7,7 @@
 - Descubrir si el problema es totalmente “paralelizable”.
 - Si el código  tiene saltos condicionales dentro del bucle o instrucciones que puedan bloquear la CPU.
 - Analizar el comportamiento del código proporcionado como ejemplo (example()), y explicar las diferencias obtenidas.
-- 
+
 ## Qué resultados tenemos que anotar
 -  Máquina (sobre todo procesador). Para ello, podemos usar CPU-Z.
 - Compilador y Opciones de optimizaciones usadas (sólo si algún grupo usa otro que no sea el del proyecto suministrado).
