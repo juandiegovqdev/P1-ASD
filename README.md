@@ -5,7 +5,7 @@
 - Descubrir si el problema es totalmente “paralelizable”.
 - Si el código  tiene saltos condicionales dentro del bucle o instrucciones que puedan bloquear la CPU.
 - Analizar el comportamiento del código proporcionado como ejemplo (example()), y explicar las diferencias obtenidas.
-- 
+
 ## Qué resultados tenemos que anotar
 -  Máquina (sobre todo procesador). Para ello, podemos usar CPU-Z.
 - Compilador y Opciones de optimizaciones usadas (sólo si algún grupo usa otro que no sea el del proyecto suministrado).
@@ -19,8 +19,6 @@ dinámicas TFG.pdf)
 - Explicar la causa de la duración y las variaciones (si las hay) que se encuentran al cambiar de código y al aumentar N_ITER
 (estudiar el efecto de los accesos a caché y a RAM).
 - Y por supuesto cualquier otro resultado que considere importante...
-
-## Realizar presentación en PowerPoint
 
 ## Problema a resolver
 
