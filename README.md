@@ -22,8 +22,6 @@ dinámicas TFG.pdf)
 (estudiar el efecto de los accesos a caché y a RAM).
 - Y por supuesto cualquier otro resultado que considere importante...
 
-## Realizar presentación en PowerPoint
-
 ## Problema a resolver
 
 Sumatorio de los elementos de un vector. Probar al menos con:
