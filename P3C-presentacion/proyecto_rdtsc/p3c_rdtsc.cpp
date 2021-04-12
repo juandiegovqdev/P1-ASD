@@ -82,21 +82,70 @@ void vectors_init ()
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// tests
-float problem ()
+/// Funciones con el problema a solucionar.
+float apartadoA()
 {
 	int  i;
-	float z = 0.0; 
-
-	for (i=0;i<N_ELEM;i++)
+	float z = 0.0;
+	for (i = 0; i < N_ELEM; i++)
 	{
-		// Put your code here
-
+		z = z + a[i];
 	}
-
-	// IMPORTANT : Always return a value
-	return z; // Replace returned value
+	return z; 
 }
+
+float apartadoBPrimeraOpcion()
+{
+	int  i;
+	float z = 0.0;
+
+	for (i = 0; i < N_ELEM; i++)
+	{
+		z = (z + a[i]) + b[i];
+	}
+	return z; 
+}
+
+float apartadoBSegundaOpcion()
+{
+	int  i;
+	float z = 0.0;
+
+	for (i = 0; i < N_ELEM; i++)
+	{
+		z = (z + a[i]) + 3.0;
+	}
+	return z; 
+}
+
+float apartadoCPrimeraCond()
+{
+	int  i;
+	float z = 0.0;
+
+	for (i = 0; i < N_ELEM; i++)
+	{
+		if (cond3) {
+			z = z + a[i];
+		}
+	}
+	return z; 
+}
+
+float apartadoCSegundaCond()
+{
+	int  i;
+	float z = 0.0;
+
+	for (i = 0; i < N_ELEM; i++)
+	{
+		if (cond2) {
+		z = z + a[i];
+		 }
+	}
+	return z; 
+}
+
 
 float example ()
 {
@@ -110,7 +159,6 @@ float example ()
 	// IMPORTANT : Always return a value
 	return a[N_ELEM-1 ];
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main( int argc, char** argv ) {
