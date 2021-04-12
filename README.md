@@ -1,4 +1,6 @@
-# P1-ASD
+# Arquitectura de Sistemas Distribuídos
+# Primero proyecto en grupo.
+# Realizado por: Enrique García y Juan Diego Villalobos
 
 ## Objetivos del proyecto.
 - Resolver el problema asignado.
