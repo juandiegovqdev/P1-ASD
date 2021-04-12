@@ -1,6 +1,6 @@
 # Arquitectura de Sistemas Distribuídos
-# Primero proyecto en grupo.
-# Realizado por: Enrique García y Juan Diego Villalobos
+### Primero proyecto en grupo.
+### Realizado por: Enrique García y Juan Diego Villalobos
 
 ## Objetivos del proyecto.
 - Resolver el problema asignado.
