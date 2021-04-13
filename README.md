@@ -22,6 +22,17 @@ dinámicas TFG.pdf)
 (estudiar el efecto de los accesos a caché y a RAM).
 - Y por supuesto cualquier otro resultado que considere importante...
 
+## Hardware usado
+### Enrique García
+
+- Procesador:
+- Velocidad de reloj: 
+
+### Juan Diego Villalobos
+
+- Procesador: Intel Core i5
+- Velocidad de reloj: 4GHz
+
 ## Problema a resolver
 
 Sumatorio de los elementos de un vector. Probar al menos con:
