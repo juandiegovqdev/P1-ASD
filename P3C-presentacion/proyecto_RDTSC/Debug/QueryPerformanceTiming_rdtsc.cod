@@ -148,7 +148,7 @@ PUBLIC	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std
 PUBLIC	??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z ; std::basic_ostream<char,std::char_traits<char> >::sentry::sentry
 PUBLIC	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std::basic_ostream<char,std::char_traits<char> >::sentry::~sentry
 PUBLIC	__JustMyCode_Default
-PUBLIC	__real@41e954fc40000000
+PUBLIC	__real@41d7d78400000000
 EXTRN	_strlen:PROC
 EXTRN	?uncaught_exception@std@@YA_NXZ:PROC		; std::uncaught_exception
 EXTRN	__imp_?good@ios_base@std@@QBE_NXZ:PROC
@@ -176,9 +176,9 @@ EXTRN	__ultod3:PROC
 EXTRN	__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A:BYTE
 EXTRN	___security_cookie:DWORD
 EXTRN	__fltused:DWORD
-;	COMDAT __real@41e954fc40000000
+;	COMDAT __real@41d7d78400000000
 CONST	SEGMENT
-__real@41e954fc40000000 DQ 041e954fc40000000r	; 3.4e+09
+__real@41d7d78400000000 DQ 041d7d78400000000r	; 1.6e+09
 CONST	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -2051,7 +2051,7 @@ _this$ = -4						; size = 4
 
   0004d	8b 45 fc	 mov	 eax, DWORD PTR _this$[ebp]
   00050	c5 fb 10 05 00
-	00 00 00	 vmovsd	 xmm0, QWORD PTR __real@41e954fc40000000
+	00 00 00	 vmovsd	 xmm0, QWORD PTR __real@41d7d78400000000
   00058	c5 fb 11 40 30	 vmovsd	 QWORD PTR [eax+48], xmm0
 
 ; 39   : 	//QPFrequencyHz = getTickFrequency();

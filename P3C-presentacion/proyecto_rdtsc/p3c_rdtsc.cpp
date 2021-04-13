@@ -170,7 +170,7 @@ int main(int argc, char** argv) {
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
 		c3.Start();  // start timer
-		var2 = apartadoBPrimeraOpcion(); // Do the test
+		var3 = apartadoBPrimeraOpcion(); // Do the test
 		c3.Stop();  // stop timer
 		c3.Reset();
 	}
@@ -179,7 +179,7 @@ int main(int argc, char** argv) {
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
 		c4.Start();  // start timer
-		var2 = apartadoBSegundaOpcion(); // Do the test
+		var4 = apartadoBSegundaOpcion(); // Do the test
 		c4.Stop();  // stop timer
 		c4.Reset();
 	}
@@ -188,7 +188,7 @@ int main(int argc, char** argv) {
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
 		c5.Start();  // start timer
-		var2 = apartadoCPrimeraCond(); // Do the test
+		var5 = apartadoCPrimeraCond(); // Do the test
 		c5.Stop();  // stop timer
 		c5.Reset();
 	}
@@ -197,14 +197,14 @@ int main(int argc, char** argv) {
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
 		c6.Start();  // start timer
-		var2 = apartadoCSegundaCond(); // Do the test
+		var6 = apartadoCSegundaCond(); // Do the test
 		c6.Stop();  // stop timer
 		c6.Reset();
 	}
 	// end of    testing
 
 	cout << endl << "ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPILER ELIMINATES FUNCTION CALLS: "
-		<< var1 << ", " << var2 << var3 << var4 << var5 << var6 << endl;
+		<< var1 << ", " << var2 << ", " << var3 << ", " << var4 << ", " << var5 << ", " << var6 << endl;
 
 	cout << "-Number of elements N_ELEM: " << N_ELEM << endl;
 	cout << "-Number of measures example: " << c1.NumberOfMeasures() << endl;

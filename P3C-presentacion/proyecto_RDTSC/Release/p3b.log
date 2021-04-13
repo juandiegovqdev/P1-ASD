@@ -1,9 +1,8 @@
 ﻿  p3c_rdtsc.cpp
-C:\Users\Usuario\Documents\GitHub\P1-ASD\P3C-presentacion\proyecto_RDTSC\p3c_rdtsc.cpp(105,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(105,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  QueryPerformanceTiming_rdtsc.cpp
   Generando código
-C:\Users\Usuario\Documents\GitHub\P1-ASD\P3C-presentacion\proyecto_RDTSC\p3c_rdtsc.cpp(170): warning C4700: se utilizó la variable local 'var2' sin inicializar
-  1 of 25 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 30 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Generación de código finalizada
-  p3b.vcxproj -> C:\Users\Usuario\Documents\GitHub\P1-ASD\P3C-presentacion\proyecto_RDTSC\Release\p3c.exe
+  p3b.vcxproj -> C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\Release\p3c.exe

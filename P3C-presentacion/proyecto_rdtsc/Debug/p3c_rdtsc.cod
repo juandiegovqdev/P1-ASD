@@ -104,13 +104,13 @@ __47A24B20_xstddef DB 01H
 __29B0C2E9_xatomic@h DB 01H
 msvcjmc	ENDS
 CONST	SEGMENT
-$SG128796 DB	'invalid argument', 00H
+$SG128808 DB	'invalid argument', 00H
 	ORG $+3
-$SG128797 DB	'%s', 00H
+$SG128809 DB	'%s', 00H
 	ORG $+1
-$SG128798 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG128810 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xmemory', 00H
-$SG128799 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+$SG128811 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
 	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
 	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
@@ -127,7 +127,7 @@ $SG128799 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
 	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
 	DB	00H
-$SG128800 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+$SG128812 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
 	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
 	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
@@ -135,42 +135,50 @@ $SG128800 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
 	DB	00H
 	ORG $+2
-$SG128801 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+$SG128813 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
 	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
 	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
 	ORG $+2
-$SG128829 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG128841 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xlocale', 00H
-$SG121607 DB	', ', 00H
+$SG121615 DB	', ', 00H
 	ORG $+1
-$SG121611 DB	'-Number of measures Apartado A: ', 00H
+$SG121616 DB	', ', 00H
+	ORG $+1
+$SG121617 DB	', ', 00H
+	ORG $+1
+$SG121618 DB	', ', 00H
+	ORG $+1
+$SG121619 DB	', ', 00H
+	ORG $+1
+$SG121623 DB	'-Number of measures Apartado A: ', 00H
 	ORG $+3
-$SG121608 DB	'ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPIL'
+$SG121620 DB	'ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPIL'
 	DB	'ER ELIMINATES FUNCTION CALLS: ', 00H
 	ORG $+1
-$SG121609 DB	'-Number of elements N_ELEM: ', 00H
+$SG121621 DB	'-Number of elements N_ELEM: ', 00H
 	ORG $+3
-$SG121610 DB	'-Number of measures example: ', 00H
+$SG121622 DB	'-Number of measures example: ', 00H
 	ORG $+2
-$SG121612 DB	'-Number of measures Apartado B(1): ', 00H
-$SG121613 DB	'-Number of measures Apartado B(2): ', 00H
-$SG121614 DB	'-Number of measures Apartado C(1): ', 00H
-$SG121615 DB	'-Number of measures Apartado C(2): ', 00H
-$SG121616 DB	' Minimum time in cycles for an element of ''example'' is'
+$SG121624 DB	'-Number of measures Apartado B(1): ', 00H
+$SG121625 DB	'-Number of measures Apartado B(2): ', 00H
+$SG121626 DB	'-Number of measures Apartado C(1): ', 00H
+$SG121627 DB	'-Number of measures Apartado C(2): ', 00H
+$SG121628 DB	' Minimum time in cycles for an element of ''example'' is'
 	DB	': ', 00H
 	ORG $+3
-$SG121617 DB	' Minimum time in cycles for an element of ''Apartado A'''
+$SG121629 DB	' Minimum time in cycles for an element of ''Apartado A'''
 	DB	' is: ', 00H
-$SG121618 DB	' Minimum time in cycles for an element of ''Apartado B(1'
+$SG121630 DB	' Minimum time in cycles for an element of ''Apartado B(1'
 	DB	')'' is: ', 00H
 	ORG $+1
-$SG121619 DB	' Minimum time in cycles for an element of ''Apartado B(2'
+$SG121631 DB	' Minimum time in cycles for an element of ''Apartado B(2'
 	DB	')'' is: ', 00H
 	ORG $+1
-$SG121620 DB	' Minimum time in cycles for an element of ''Apartado C(1'
+$SG121632 DB	' Minimum time in cycles for an element of ''Apartado C(1'
 	DB	')'' is: ', 00H
 	ORG $+1
-$SG121621 DB	' Minimum time in cycles for an element of ''Apartado C(2'
+$SG121633 DB	' Minimum time in cycles for an element of ''Apartado C(2'
 	DB	')'' is: ', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPAX@Z		; __empty_global_delete
@@ -1287,12 +1295,12 @@ _c4$ = -284						; size = 64
 _c3$ = -220						; size = 64
 _c2$ = -156						; size = 64
 _c1$ = -92						; size = 64
-_var3$ = -28						; size = 4
-_var4$ = -24						; size = 4
-_var5$ = -20						; size = 4
-_var6$ = -16						; size = 4
-_var1$ = -12						; size = 4
-_var2$ = -8						; size = 4
+_var1$ = -28						; size = 4
+_var2$ = -24						; size = 4
+_var3$ = -20						; size = 4
+_var4$ = -16						; size = 4
+_var5$ = -12						; size = 4
+_var6$ = -8						; size = 4
 _i$ = -4						; size = 4
 _argc$ = 8						; size = 4
 _argv$ = 12						; size = 4
@@ -1364,7 +1372,7 @@ $LN4@main:
 ; 153  : 		var1 = example(); // Do the test
 
   00082	e8 00 00 00 00	 call	 ?example@@YAMXZ		; example
-  00087	d9 5d f4	 fstp	 DWORD PTR _var1$[ebp]
+  00087	d9 5d e4	 fstp	 DWORD PTR _var1$[ebp]
 
 ; 154  : 		c1.Stop();  // stop timer
 
@@ -1417,7 +1425,7 @@ $LN7@main:
 ; 164  : 		var2 = apartadoA(); // Do the test
 
   000d2	e8 00 00 00 00	 call	 ?apartadoA@@YAMXZ	; apartadoA
-  000d7	d9 5d f8	 fstp	 DWORD PTR _var2$[ebp]
+  000d7	d9 5d e8	 fstp	 DWORD PTR _var2$[ebp]
 
 ; 165  : 		c2.Stop();  // stop timer
 
@@ -1467,10 +1475,10 @@ $LN10@main:
 	ff		 lea	 ecx, DWORD PTR _c3$[ebp]
   00123	e8 00 00 00 00	 call	 ?Start@QPTimer@@QAEXXZ	; QPTimer::Start
 
-; 173  : 		var2 = apartadoBPrimeraOpcion(); // Do the test
+; 173  : 		var3 = apartadoBPrimeraOpcion(); // Do the test
 
   00128	e8 00 00 00 00	 call	 ?apartadoBPrimeraOpcion@@YAMXZ ; apartadoBPrimeraOpcion
-  0012d	d9 5d f8	 fstp	 DWORD PTR _var2$[ebp]
+  0012d	d9 5d ec	 fstp	 DWORD PTR _var3$[ebp]
 
 ; 174  : 		c3.Stop();  // stop timer
 
@@ -1520,10 +1528,10 @@ $LN13@main:
 	ff		 lea	 ecx, DWORD PTR _c4$[ebp]
   00179	e8 00 00 00 00	 call	 ?Start@QPTimer@@QAEXXZ	; QPTimer::Start
 
-; 182  : 		var2 = apartadoBSegundaOpcion(); // Do the test
+; 182  : 		var4 = apartadoBSegundaOpcion(); // Do the test
 
   0017e	e8 00 00 00 00	 call	 ?apartadoBSegundaOpcion@@YAMXZ ; apartadoBSegundaOpcion
-  00183	d9 5d f8	 fstp	 DWORD PTR _var2$[ebp]
+  00183	d9 5d f0	 fstp	 DWORD PTR _var4$[ebp]
 
 ; 183  : 		c4.Stop();  // stop timer
 
@@ -1573,10 +1581,10 @@ $LN16@main:
 	ff		 lea	 ecx, DWORD PTR _c5$[ebp]
   001cf	e8 00 00 00 00	 call	 ?Start@QPTimer@@QAEXXZ	; QPTimer::Start
 
-; 191  : 		var2 = apartadoCPrimeraCond(); // Do the test
+; 191  : 		var5 = apartadoCPrimeraCond(); // Do the test
 
   001d4	e8 00 00 00 00	 call	 ?apartadoCPrimeraCond@@YAMXZ ; apartadoCPrimeraCond
-  001d9	d9 5d f8	 fstp	 DWORD PTR _var2$[ebp]
+  001d9	d9 5d f4	 fstp	 DWORD PTR _var5$[ebp]
 
 ; 192  : 		c5.Stop();  // stop timer
 
@@ -1626,10 +1634,10 @@ $LN19@main:
 	ff		 lea	 ecx, DWORD PTR _c6$[ebp]
   00225	e8 00 00 00 00	 call	 ?Start@QPTimer@@QAEXXZ	; QPTimer::Start
 
-; 200  : 		var2 = apartadoCSegundaCond(); // Do the test
+; 200  : 		var6 = apartadoCSegundaCond(); // Do the test
 
   0022a	e8 00 00 00 00	 call	 ?apartadoCSegundaCond@@YAMXZ ; apartadoCSegundaCond
-  0022f	d9 5d f8	 fstp	 DWORD PTR _var2$[ebp]
+  0022f	d9 5d f8	 fstp	 DWORD PTR _var6$[ebp]
 
 ; 201  : 		c6.Stop();  // stop timer
 
@@ -1654,199 +1662,215 @@ $LN18@main:
 
   0024a	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
   0024f	51		 push	 ecx
-  00250	c5 fa 10 45 f0	 vmovss	 xmm0, DWORD PTR _var6$[ebp]
+  00250	c5 fa 10 45 f8	 vmovss	 xmm0, DWORD PTR _var6$[ebp]
   00255	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  0025a	51		 push	 ecx
-  0025b	c5 fa 10 45 ec	 vmovss	 xmm0, DWORD PTR _var5$[ebp]
-  00260	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  00265	51		 push	 ecx
-  00266	c5 fa 10 45 e8	 vmovss	 xmm0, DWORD PTR _var4$[ebp]
-  0026b	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  00270	51		 push	 ecx
-  00271	c5 fa 10 45 e4	 vmovss	 xmm0, DWORD PTR _var3$[ebp]
-  00276	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  0027b	51		 push	 ecx
-  0027c	c5 fa 10 45 f8	 vmovss	 xmm0, DWORD PTR _var2$[ebp]
-  00281	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  00286	68 00 00 00 00	 push	 OFFSET $SG121607
-  0028b	51		 push	 ecx
-  0028c	c5 fa 10 45 f4	 vmovss	 xmm0, DWORD PTR _var1$[ebp]
-  00291	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
-  00296	68 00 00 00 00	 push	 OFFSET $SG121608
-  0029b	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  002a0	8b 0d 00 00 00
+  0025a	68 00 00 00 00	 push	 OFFSET $SG121615
+  0025f	51		 push	 ecx
+  00260	c5 fa 10 45 f4	 vmovss	 xmm0, DWORD PTR _var5$[ebp]
+  00265	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
+  0026a	68 00 00 00 00	 push	 OFFSET $SG121616
+  0026f	51		 push	 ecx
+  00270	c5 fa 10 45 f0	 vmovss	 xmm0, DWORD PTR _var4$[ebp]
+  00275	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
+  0027a	68 00 00 00 00	 push	 OFFSET $SG121617
+  0027f	51		 push	 ecx
+  00280	c5 fa 10 45 ec	 vmovss	 xmm0, DWORD PTR _var3$[ebp]
+  00285	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
+  0028a	68 00 00 00 00	 push	 OFFSET $SG121618
+  0028f	51		 push	 ecx
+  00290	c5 fa 10 45 e8	 vmovss	 xmm0, DWORD PTR _var2$[ebp]
+  00295	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
+  0029a	68 00 00 00 00	 push	 OFFSET $SG121619
+  0029f	51		 push	 ecx
+  002a0	c5 fa 10 45 e4	 vmovss	 xmm0, DWORD PTR _var1$[ebp]
+  002a5	c5 fa 11 04 24	 vmovss	 DWORD PTR [esp], xmm0
+  002aa	68 00 00 00 00	 push	 OFFSET $SG121620
+  002af	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  002b4	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  002a6	ff 15 00 00 00
+  002ba	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-  002ac	50		 push	 eax
-  002ad	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  002b2	83 c4 08	 add	 esp, 8
-  002b5	8b c8		 mov	 ecx, eax
-  002b7	ff 15 00 00 00
+  002c0	50		 push	 eax
+  002c1	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  002c6	83 c4 08	 add	 esp, 8
+  002c9	8b c8		 mov	 ecx, eax
+  002cb	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002bd	50		 push	 eax
-  002be	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  002c3	83 c4 08	 add	 esp, 8
-  002c6	8b c8		 mov	 ecx, eax
-  002c8	ff 15 00 00 00
+  002d1	50		 push	 eax
+  002d2	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  002d7	83 c4 08	 add	 esp, 8
+  002da	8b c8		 mov	 ecx, eax
+  002dc	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002ce	8b c8		 mov	 ecx, eax
-  002d0	ff 15 00 00 00
+  002e2	50		 push	 eax
+  002e3	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  002e8	83 c4 08	 add	 esp, 8
+  002eb	8b c8		 mov	 ecx, eax
+  002ed	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002d6	8b c8		 mov	 ecx, eax
-  002d8	ff 15 00 00 00
+  002f3	50		 push	 eax
+  002f4	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  002f9	83 c4 08	 add	 esp, 8
+  002fc	8b c8		 mov	 ecx, eax
+  002fe	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002de	8b c8		 mov	 ecx, eax
-  002e0	ff 15 00 00 00
+  00304	50		 push	 eax
+  00305	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  0030a	83 c4 08	 add	 esp, 8
+  0030d	8b c8		 mov	 ecx, eax
+  0030f	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002e6	8b c8		 mov	 ecx, eax
-  002e8	ff 15 00 00 00
+  00315	50		 push	 eax
+  00316	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  0031b	83 c4 08	 add	 esp, 8
+  0031e	8b c8		 mov	 ecx, eax
+  00320	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z
-  002ee	8b c8		 mov	 ecx, eax
-  002f0	ff 15 00 00 00
+  00326	8b c8		 mov	 ecx, eax
+  00328	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
-; 207  : 		<< var1 << ", " << var2 << var3 << var4 << var5 << var6 << endl;
+; 207  : 		<< var1 << ", " << var2 << ", " << var3 << ", " << var4 << ", " << var5 << ", " << var6 << endl;
 ; 208  : 
 ; 209  : 	cout << "-Number of elements N_ELEM: " << N_ELEM << endl;
 
-  002f6	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  002fb	68 00 08 00 00	 push	 2048			; 00000800H
-  00300	68 00 00 00 00	 push	 OFFSET $SG121609
-  00305	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  0030a	50		 push	 eax
-  0030b	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  00310	83 c4 08	 add	 esp, 8
-  00313	8b c8		 mov	 ecx, eax
-  00315	ff 15 00 00 00
+  0032e	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00333	68 00 08 00 00	 push	 2048			; 00000800H
+  00338	68 00 00 00 00	 push	 OFFSET $SG121621
+  0033d	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+  00342	50		 push	 eax
+  00343	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  00348	83 c4 08	 add	 esp, 8
+  0034b	8b c8		 mov	 ecx, eax
+  0034d	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  0031b	8b c8		 mov	 ecx, eax
-  0031d	ff 15 00 00 00
+  00353	8b c8		 mov	 ecx, eax
+  00355	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 210  : 	cout << "-Number of measures example: " << c1.NumberOfMeasures() << endl;
 
-  00323	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  00328	8d 4d a4	 lea	 ecx, DWORD PTR _c1$[ebp]
-  0032b	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  00330	50		 push	 eax
-  00331	68 00 00 00 00	 push	 OFFSET $SG121610
-  00336	8b 0d 00 00 00
+  0035b	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00360	8d 4d a4	 lea	 ecx, DWORD PTR _c1$[ebp]
+  00363	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  00368	50		 push	 eax
+  00369	68 00 00 00 00	 push	 OFFSET $SG121622
+  0036e	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  0033c	51		 push	 ecx
-  0033d	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  00342	83 c4 08	 add	 esp, 8
-  00345	8b c8		 mov	 ecx, eax
-  00347	ff 15 00 00 00
+  00374	51		 push	 ecx
+  00375	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  0037a	83 c4 08	 add	 esp, 8
+  0037d	8b c8		 mov	 ecx, eax
+  0037f	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  0034d	8b c8		 mov	 ecx, eax
-  0034f	ff 15 00 00 00
+  00385	8b c8		 mov	 ecx, eax
+  00387	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 211  : 	cout << "-Number of measures Apartado A: " << c2.NumberOfMeasures() << endl;
 
-  00355	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  0035a	8d 8d 64 ff ff
+  0038d	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00392	8d 8d 64 ff ff
 	ff		 lea	 ecx, DWORD PTR _c2$[ebp]
-  00360	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  00365	50		 push	 eax
-  00366	68 00 00 00 00	 push	 OFFSET $SG121611
-  0036b	8b 15 00 00 00
+  00398	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  0039d	50		 push	 eax
+  0039e	68 00 00 00 00	 push	 OFFSET $SG121623
+  003a3	8b 15 00 00 00
 	00		 mov	 edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00371	52		 push	 edx
-  00372	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  00377	83 c4 08	 add	 esp, 8
-  0037a	8b c8		 mov	 ecx, eax
-  0037c	ff 15 00 00 00
+  003a9	52		 push	 edx
+  003aa	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  003af	83 c4 08	 add	 esp, 8
+  003b2	8b c8		 mov	 ecx, eax
+  003b4	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  00382	8b c8		 mov	 ecx, eax
-  00384	ff 15 00 00 00
+  003ba	8b c8		 mov	 ecx, eax
+  003bc	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 212  : 	cout << "-Number of measures Apartado B(1): " << c3.NumberOfMeasures() << endl;
 
-  0038a	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  0038f	8d 8d 24 ff ff
+  003c2	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  003c7	8d 8d 24 ff ff
 	ff		 lea	 ecx, DWORD PTR _c3$[ebp]
-  00395	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  0039a	50		 push	 eax
-  0039b	68 00 00 00 00	 push	 OFFSET $SG121612
-  003a0	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  003a5	50		 push	 eax
-  003a6	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  003ab	83 c4 08	 add	 esp, 8
-  003ae	8b c8		 mov	 ecx, eax
-  003b0	ff 15 00 00 00
+  003cd	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  003d2	50		 push	 eax
+  003d3	68 00 00 00 00	 push	 OFFSET $SG121624
+  003d8	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+  003dd	50		 push	 eax
+  003de	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  003e3	83 c4 08	 add	 esp, 8
+  003e6	8b c8		 mov	 ecx, eax
+  003e8	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  003b6	8b c8		 mov	 ecx, eax
-  003b8	ff 15 00 00 00
+  003ee	8b c8		 mov	 ecx, eax
+  003f0	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 213  : 	cout << "-Number of measures Apartado B(2): " << c4.NumberOfMeasures() << endl;
 
-  003be	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  003c3	8d 8d e4 fe ff
+  003f6	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  003fb	8d 8d e4 fe ff
 	ff		 lea	 ecx, DWORD PTR _c4$[ebp]
-  003c9	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  003ce	50		 push	 eax
-  003cf	68 00 00 00 00	 push	 OFFSET $SG121613
-  003d4	8b 0d 00 00 00
+  00401	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  00406	50		 push	 eax
+  00407	68 00 00 00 00	 push	 OFFSET $SG121625
+  0040c	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  003da	51		 push	 ecx
-  003db	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  003e0	83 c4 08	 add	 esp, 8
-  003e3	8b c8		 mov	 ecx, eax
-  003e5	ff 15 00 00 00
+  00412	51		 push	 ecx
+  00413	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  00418	83 c4 08	 add	 esp, 8
+  0041b	8b c8		 mov	 ecx, eax
+  0041d	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  003eb	8b c8		 mov	 ecx, eax
-  003ed	ff 15 00 00 00
+  00423	8b c8		 mov	 ecx, eax
+  00425	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 214  : 	cout << "-Number of measures Apartado C(1): " << c5.NumberOfMeasures() << endl;
 
-  003f3	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  003f8	8d 8d a4 fe ff
+  0042b	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00430	8d 8d a4 fe ff
 	ff		 lea	 ecx, DWORD PTR _c5$[ebp]
-  003fe	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  00403	50		 push	 eax
-  00404	68 00 00 00 00	 push	 OFFSET $SG121614
-  00409	8b 15 00 00 00
+  00436	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  0043b	50		 push	 eax
+  0043c	68 00 00 00 00	 push	 OFFSET $SG121626
+  00441	8b 15 00 00 00
 	00		 mov	 edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  0040f	52		 push	 edx
-  00410	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  00415	83 c4 08	 add	 esp, 8
-  00418	8b c8		 mov	 ecx, eax
-  0041a	ff 15 00 00 00
+  00447	52		 push	 edx
+  00448	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  0044d	83 c4 08	 add	 esp, 8
+  00450	8b c8		 mov	 ecx, eax
+  00452	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  00420	8b c8		 mov	 ecx, eax
-  00422	ff 15 00 00 00
+  00458	8b c8		 mov	 ecx, eax
+  0045a	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 215  : 	cout << "-Number of measures Apartado C(2): " << c6.NumberOfMeasures() << endl;
 
-  00428	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  0042d	8d 8d 64 fe ff
+  00460	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00465	8d 8d 64 fe ff
 	ff		 lea	 ecx, DWORD PTR _c6$[ebp]
-  00433	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
-  00438	50		 push	 eax
-  00439	68 00 00 00 00	 push	 OFFSET $SG121615
-  0043e	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00443	50		 push	 eax
-  00444	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-  00449	83 c4 08	 add	 esp, 8
-  0044c	8b c8		 mov	 ecx, eax
-  0044e	ff 15 00 00 00
+  0046b	e8 00 00 00 00	 call	 ?NumberOfMeasures@QPTimer@@QAEHXZ ; QPTimer::NumberOfMeasures
+  00470	50		 push	 eax
+  00471	68 00 00 00 00	 push	 OFFSET $SG121627
+  00476	a1 00 00 00 00	 mov	 eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+  0047b	50		 push	 eax
+  0047c	e8 00 00 00 00	 call	 ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+  00481	83 c4 08	 add	 esp, 8
+  00484	8b c8		 mov	 ecx, eax
+  00486	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
-  00454	8b c8		 mov	 ecx, eax
-  00456	ff 15 00 00 00
+  0048c	8b c8		 mov	 ecx, eax
+  0048e	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 216  : 	cout << endl;
 
-  0045c	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  00461	8b 0d 00 00 00
+  00494	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00499	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00467	ff 15 00 00 00
+  0049f	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 217  : 
@@ -1860,118 +1884,118 @@ $LN18@main:
 ; 225  : 
 ; 226  : 	c1.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'example' is: ", N_ELEM);
 
-  0046d	68 00 08 00 00	 push	 2048			; 00000800H
-  00472	68 00 00 00 00	 push	 OFFSET $SG121616
-  00477	8d 4d a4	 lea	 ecx, DWORD PTR _c1$[ebp]
-  0047a	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  004a5	68 00 08 00 00	 push	 2048			; 00000800H
+  004aa	68 00 00 00 00	 push	 OFFSET $SG121628
+  004af	8d 4d a4	 lea	 ecx, DWORD PTR _c1$[ebp]
+  004b2	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 227  : 	cout << endl;
 
-  0047f	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  00484	8b 0d 00 00 00
+  004b7	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  004bc	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  0048a	ff 15 00 00 00
+  004c2	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 228  : 
 ; 229  : 	c2.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'Apartado A' is: ", N_ELEM);
 
-  00490	68 00 08 00 00	 push	 2048			; 00000800H
-  00495	68 00 00 00 00	 push	 OFFSET $SG121617
-  0049a	8d 8d 64 ff ff
+  004c8	68 00 08 00 00	 push	 2048			; 00000800H
+  004cd	68 00 00 00 00	 push	 OFFSET $SG121629
+  004d2	8d 8d 64 ff ff
 	ff		 lea	 ecx, DWORD PTR _c2$[ebp]
-  004a0	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  004d8	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 230  : 	cout << endl;
 
-  004a5	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  004aa	8b 0d 00 00 00
+  004dd	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  004e2	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  004b0	ff 15 00 00 00
+  004e8	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 231  : 
 ; 232  : 	c3.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'Apartado B(1)' is: ", N_ELEM);
 
-  004b6	68 00 08 00 00	 push	 2048			; 00000800H
-  004bb	68 00 00 00 00	 push	 OFFSET $SG121618
-  004c0	8d 8d 24 ff ff
+  004ee	68 00 08 00 00	 push	 2048			; 00000800H
+  004f3	68 00 00 00 00	 push	 OFFSET $SG121630
+  004f8	8d 8d 24 ff ff
 	ff		 lea	 ecx, DWORD PTR _c3$[ebp]
-  004c6	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  004fe	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 233  : 	cout << endl;
 
-  004cb	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  004d0	8b 0d 00 00 00
+  00503	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00508	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  004d6	ff 15 00 00 00
+  0050e	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 234  : 
 ; 235  : 	c4.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'Apartado B(2)' is: ", N_ELEM);
 
-  004dc	68 00 08 00 00	 push	 2048			; 00000800H
-  004e1	68 00 00 00 00	 push	 OFFSET $SG121619
-  004e6	8d 8d e4 fe ff
+  00514	68 00 08 00 00	 push	 2048			; 00000800H
+  00519	68 00 00 00 00	 push	 OFFSET $SG121631
+  0051e	8d 8d e4 fe ff
 	ff		 lea	 ecx, DWORD PTR _c4$[ebp]
-  004ec	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  00524	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 236  : 	cout << endl;
 
-  004f1	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  004f6	8b 0d 00 00 00
+  00529	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  0052e	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  004fc	ff 15 00 00 00
+  00534	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 237  : 
 ; 238  : 	c5.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'Apartado C(1)' is: ", N_ELEM);
 
-  00502	68 00 08 00 00	 push	 2048			; 00000800H
-  00507	68 00 00 00 00	 push	 OFFSET $SG121620
-  0050c	8d 8d a4 fe ff
+  0053a	68 00 08 00 00	 push	 2048			; 00000800H
+  0053f	68 00 00 00 00	 push	 OFFSET $SG121632
+  00544	8d 8d a4 fe ff
 	ff		 lea	 ecx, DWORD PTR _c5$[ebp]
-  00512	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  0054a	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 239  : 	cout << endl;
 
-  00517	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  0051c	8b 0d 00 00 00
+  0054f	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  00554	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00522	ff 15 00 00 00
+  0055a	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 240  : 
 ; 241  : 	c6.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'Apartado C(2)' is: ", N_ELEM);
 
-  00528	68 00 08 00 00	 push	 2048			; 00000800H
-  0052d	68 00 00 00 00	 push	 OFFSET $SG121621
-  00532	8d 8d 64 fe ff
+  00560	68 00 08 00 00	 push	 2048			; 00000800H
+  00565	68 00 00 00 00	 push	 OFFSET $SG121633
+  0056a	8d 8d 64 fe ff
 	ff		 lea	 ecx, DWORD PTR _c6$[ebp]
-  00538	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
+  00570	e8 00 00 00 00	 call	 ?PrintMinimumCyclesByIteration@QPTimer@@QAEXPBDH@Z ; QPTimer::PrintMinimumCyclesByIteration
 
 ; 242  : 	cout << endl;
 
-  0053d	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  00542	8b 0d 00 00 00
+  00575	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  0057a	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00548	ff 15 00 00 00
+  00580	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 243  : 	cout << endl;
 
-  0054e	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-  00553	8b 0d 00 00 00
+  00586	68 00 00 00 00	 push	 OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+  0058b	8b 0d 00 00 00
 	00		 mov	 ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-  00559	ff 15 00 00 00
+  00591	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
 
 ; 244  : }
 
-  0055f	33 c0		 xor	 eax, eax
-  00561	8b e5		 mov	 esp, ebp
-  00563	5d		 pop	 ebp
-  00564	c3		 ret	 0
+  00597	33 c0		 xor	 eax, eax
+  00599	8b e5		 mov	 esp, ebp
+  0059b	5d		 pop	 ebp
+  0059c	c3		 ret	 0
 _main	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp

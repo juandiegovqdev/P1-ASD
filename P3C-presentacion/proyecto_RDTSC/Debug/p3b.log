@@ -1,7 +1,1 @@
-﻿  p3c_rdtsc.cpp
-C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(105,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(206): warning C4700: se utilizó la variable local 'var6' sin inicializar
-C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(206): warning C4700: se utilizó la variable local 'var5' sin inicializar
-C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(206): warning C4700: se utilizó la variable local 'var4' sin inicializar
-C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\p3c_rdtsc.cpp(206): warning C4700: se utilizó la variable local 'var3' sin inicializar
-  p3b.vcxproj -> C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\Debug\p3c.exe
+﻿  p3b.vcxproj -> C:\Users\enriq\P1-ASD\P3C-presentacion\proyecto_rdtsc\Debug\p3c.exe
