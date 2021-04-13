@@ -18,7 +18,7 @@
 #include <Windows.h>
 #include <stdio.h>
 
-#define CPU_FREQ_HZ (2.800e+9)
+#define CPU_FREQ_HZ (4.000e+9)
 //#define CPU_FREQ_HZ (3.20e+9)
 //write here your CPU frequency 
 
