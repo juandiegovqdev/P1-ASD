@@ -202,13 +202,13 @@ int main(int argc, char** argv) {
 	}
 
 	cout << endl << "ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPILER ELIMINATES FUNCTION CALLS: "
-		<< var1 << ", " << var2 << var3 << var4 << var5 << var6 << endl;
+		<< "\n" << "var1: " << var1 << ", var2: " << var2 << ", var3: " << var3 << ", var4: " << var4 << ", var5: " << var5 << ", var6: " << var6 << endl;
 
 	cout << "-Number of elements N_ELEM: " << N_ELEM << endl;
 	cout << "-Number of measures example: " << c1.NumberOfMeasures() << endl;
 	cout << "-Number of measures apartadoA: " << c2.NumberOfMeasures() << endl;
 	cout << "-Number of measures apartadoBPrimeraOpcion: " << c3.NumberOfMeasures() << endl;
-	cout << "-Number of measures apartadoBSegudaOpcion: " << c4.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoBSegundaOpcion: " << c4.NumberOfMeasures() << endl;
 	cout << "-Number of measures apartadoCPrimCond: " << c5.NumberOfMeasures() << endl;
 	cout << "-Number of measures apartadoCSegCond: " << c6.NumberOfMeasures() << endl;
 	cout << endl;

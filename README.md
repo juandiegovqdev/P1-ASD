@@ -31,6 +31,79 @@ dinámicas TFG.pdf)
 - Procesador: Intel Core i5
 - Velocidad de reloj: 4GHz
 
+## Mediciones
+
+### Juan Diego, primera ejecución
+- example: 3.93066
+- apartadoA: 2.9082
+- apartadoBPrimeraOpcion: 5.81396
+- apartadobSegundaOpcion: 3.271
+- apartadoCPrimCond: 2.90674
+- apartadoCSegCond: 2.90723
+
+### Juan Diego, segunda ejecución
+
+- example: 3.64
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Juan Diego, tercera ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Juan Diego, cuarta ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Enrique, primera ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Enrique, segunda ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Enrique, tercera ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
+### Enrique, cuarta ejecución
+
+- example: 
+- apartadoA: 
+- apartadoBPrimeraOpcion: 
+- apartadobSegundaOpcion: 
+- apartadoCPrimCond: 
+- apartadoCSegCond: 
+
 ## Problema a resolver
 
 Sumatorio de los elementos de un vector. Probar al menos con:
