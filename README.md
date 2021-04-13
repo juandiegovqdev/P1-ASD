@@ -43,27 +43,36 @@ dinámicas TFG.pdf)
 
 ### Juan Diego, segunda ejecución
 
-- example: 3.64
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 3.64746
+- apartadoA: 2.83789
+- apartadoBPrimeraOpcion: 5.67285 
+- apartadobSegundaOpcion: 3.271
+- apartadoCPrimCond: 2.90625
+- apartadoCSegCond: 2.90771
 
 ### Juan Diego, tercera ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 3.65723
+- apartadoA: 2.90771
+- apartadoBPrimeraOpcion: 5.81445
+- apartadobSegundaOpcion: 3.27051
+- apartadoCPrimCond: 2.90723
+- apartadoCSegCond: 2.90723
 
 ### Juan Diego, cuarta ejecución
 
+- example: 4.36133
+- apartadoA: 2.9082
+- apartadoBPrimeraOpcion: 5.81396
+- apartadobSegundaOpcion: 3.27197
+- apartadoCPrimCond: 2.90723
+- apartadoCSegCond: 2.9082
+
+### Juan Diego, media
+
 - example: 
 - apartadoA: 
-- apartadoBPrimeraOpcion: 
+- apartadoBPrimeraOpcion:
 - apartadobSegundaOpcion: 
 - apartadoCPrimCond: 
 - apartadoCSegCond: 
