@@ -140,10 +140,10 @@ float example() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char** argv) {
 
-	float var1, var2;
+	float var1, var2, var3, var4, var5, var6;
 	int i;
 
-	QPTimer c1, c2;
+	QPTimer c1, c2, c3, c4, c5, c6;
 
 	c1.Calibrate(); //calibrates timer overhead and set cronometer to zero	
 	// measuring tests
@@ -156,23 +156,61 @@ int main(int argc, char** argv) {
 	}
 	// end of    testing
 
-	c2.Calibrate(); //calibrates timer overhead and set cronometer to zero	
-	// measuring tests
+	c2.Calibrate();
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
-		c2.Start();  // start timer
-		// TODO: var2=problem(); // Do the test
-		c2.Stop();  // stop timer
+		c2.Start();
+		var2 = apartadoA();
+		c2.Stop();
 		c2.Reset();
 	}
-	// end of    testing
+
+	c3.Calibrate();
+	for (i = 0; i < N_REPETIC; i++) {
+		vectors_init();
+		c3.Start();
+		var3 = apartadoBPrimeraOpcion();
+		c3.Stop();
+		c3.Reset();
+	}
+
+	c4.Calibrate();
+	for (i = 0; i < N_REPETIC; i++) {
+		vectors_init();
+		c4.Start();
+		var4 = apartadoBSegundaOpcion();
+		c4.Stop();
+		c4.Reset();
+	}
+
+	c5.Calibrate();
+	for (i = 0; i < N_REPETIC; i++) {
+		vectors_init();
+		c5.Start();
+		var5 = apartadoCPrimeraCond();
+		c5.Stop();
+		c5.Reset();
+	}
+
+	c6.Calibrate();
+	for (i = 0; i < N_REPETIC; i++) {
+		vectors_init();
+		c6.Start();
+		var6 = apartadoCSegundaCond();
+		c6.Stop();
+		c6.Reset();
+	}
 
 	cout << endl << "ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPILER ELIMINATES FUNCTION CALLS: "
-		<< var1 << ", " << var2 << endl;
+		<< var1 << ", " << var2 << var3 << var4 << var5 << var6 << endl;
 
 	cout << "-Number of elements N_ELEM: " << N_ELEM << endl;
 	cout << "-Number of measures example: " << c1.NumberOfMeasures() << endl;
-	cout << "-Number of measures problem: " << c2.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoA: " << c2.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoBPrimeraOpcion: " << c3.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoBSegudaOpcion: " << c4.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoCPrimCond: " << c5.NumberOfMeasures() << endl;
+	cout << "-Number of measures apartadoCSegCond: " << c6.NumberOfMeasures() << endl;
 	cout << endl;
 
 	// uncomment this if more timing results were needed:
@@ -186,7 +224,18 @@ int main(int argc, char** argv) {
 	c1.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'example' is: ", N_ELEM);
 	cout << endl;
 
-	c2.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'problem' is: ", N_ELEM);
+	c2.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'apartadoA' is: ", N_ELEM);
 	cout << endl;
+
+	c3.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'apartadoBPrimeraOpcion' is: ", N_ELEM);
+	cout << endl;
+
+	c4.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'apartadoBSegudaOpcion' is: ", N_ELEM);
+	cout << endl;
+
+	c5.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'apartadoCPrimCond' is: ", N_ELEM);
+	cout << endl;
+
+	c6.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'apartadoCSegCond' is: ", N_ELEM);
 	cout << endl;
 }
