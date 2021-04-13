@@ -22,40 +22,35 @@
 //#define CPU_FREQ_HZ (3.20e+9)
 //write here your CPU frequency 
 
-
- class QPTimer
-{
-	private:
-		DWORD64 startTime; //it contains the real timer (that was started when PC was switch on
-		DWORD64 result;    // a partial timing between Start() and Stop()
-		DWORD64 totalTime;  // the addition of several partial timing (result). It is the total time since timer was created or ResetAll
-		DWORD64 minimumTime;
-		DWORD64 overhead;
-		int times;
-
-		void ReadCycles (DWORD64 *cycles);
-		void PrintCycles (const char *pc, double cycles);
-		void PrintCyclesByIteration (const char *pc, double cycles, int NumberOfIterations);
-		void PrintTimeSeconds (const char *pc, double cycles);
-		void RestCycles (DWORD64 *c_dif, DWORD64 c_final, DWORD64 c_init);
-		void AddCycles (DWORD64 *c_dif, DWORD64 c_final, DWORD64 c_init);
-	public:
-		double QPFrequencyHz;
-		bool DisableOutput;
-		QPTimer();
-		int  NumberOfMeasures(void);
-		void Start();
-		void Stop();
-		
-		void Calibrate();
-		void Reset();
-		void ResetAll();
-		void PrintTime(const char* message);
-		void PrintCycles(const char* message);
-		void PrintMeanTime(const char* message);
-		void PrintMeanCycles(const char* message);
-		void PrintMinimumTime(const char* message);
-		void PrintMinimumCycles(const char* message);
-
-		void PrintMinimumCyclesByIteration (const char* message, int NumberOfIterations);
+class QPTimer {
+private:
+	DWORD64 startTime; // it contains the real timer (that was started when PC was switch on
+	DWORD64 result;    // a partial timing between Start() and Stop()
+	DWORD64 totalTime;  // the addition of several partial timing (result). It is the total time since timer was created or ResetAll
+	DWORD64 minimumTime;
+	DWORD64 overhead;
+	int times;
+	void ReadCycles(DWORD64* cycles);
+	void PrintCycles(const char* pc, double cycles);
+	void PrintCyclesByIteration(const char* pc, double cycles, int NumberOfIterations);
+	void PrintTimeSeconds(const char* pc, double cycles);
+	void RestCycles(DWORD64* c_dif, DWORD64 c_final, DWORD64 c_init);
+	void AddCycles(DWORD64* c_dif, DWORD64 c_final, DWORD64 c_init);
+public:
+	double QPFrequencyHz;
+	bool DisableOutput;
+	QPTimer();
+	int  NumberOfMeasures(void);
+	void Start();
+	void Stop();
+	void Calibrate();
+	void Reset();
+	void ResetAll();
+	void PrintTime(const char* message);
+	void PrintCycles(const char* message);
+	void PrintMeanTime(const char* message);
+	void PrintMeanCycles(const char* message);
+	void PrintMinimumTime(const char* message);
+	void PrintMinimumCycles(const char* message);
+	void PrintMinimumCyclesByIteration(const char* message, int NumberOfIterations);
 };
