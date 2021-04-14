@@ -72,39 +72,48 @@ dinámicas TFG.pdf)
 
 ### Enrique, primera ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 2.6543
+- apartadoA: 2.12012
+- apartadoBPrimeraOpcion: 4.23975
+- apartadobSegundaOpcion: 2.38916
+- apartadoCPrimCond: 2.11963
+- apartadoCSegCond: 2.11963
 
 ### Enrique, segunda ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 2.62842
+- apartadoA: 2.12061
+- apartadoBPrimeraOpcion: 4.23877
+- apartadobSegundaOpcion: 2.38672
+- apartadoCPrimCond: 2.11963
+- apartadoCSegCond: 2.11914
 
 ### Enrique, tercera ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 2.65381
+- apartadoA: 2.12061
+- apartadoBPrimeraOpcion: 4.23877
+- apartadobSegundaOpcion: 2.38525
+- apartadoCPrimCond: 2.11963
+- apartadoCSegCond: 2.12012
 
 ### Enrique, cuarta ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 2.66406
+- apartadoA: 2.12061
+- apartadoBPrimeraOpcion: 4.23926
+- apartadobSegundaOpcion: 2.38574
+- apartadoCPrimCond: 2.12012
+- apartadoCSegCond: 2.11963
+
+### Enrique, media 
+
+- example: 2.65015
+- apartadoA: 2.12049
+- apartadoBPrimeraOpcion: 4.23914
+- apartadobSegundaOpcion: 2.38672
+- apartadoCPrimCond: 2.11975
+- apartadoCSegCond: 2.11963
 
 ## Problema a resolver
 
