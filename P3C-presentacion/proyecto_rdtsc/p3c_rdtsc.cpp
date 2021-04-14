@@ -2,16 +2,11 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  Dpto ATC. www.atc.us.es
 //  ASD subject 3º GTI
-//  version 1. Nov. 2012. Fernando Diaz del Rio
-//  version 2a. March. 2017. Fernando Diaz del Rio
 //  
 //  - Doing several test to reach ILP limits in superscalar processor 
 //  - TEST TIMING OF simple routines 
 //  - this test uses a new version of QueryPerformanceTiming , to measure CPU cycles more precisely using RDTSC asm instr.
 //		Sometimes RDTSC fails and returns values smaller than expected. In this case try the other version of this test (p3c_proy_QPC_alumnos.zip)
-//
-//  Debug mode of VS is very slow (it only serves to check bugs in the code)
-//  Uses Release mode of VS to measure times 
 //-----------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
