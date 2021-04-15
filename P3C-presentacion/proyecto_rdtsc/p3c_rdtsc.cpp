@@ -2,18 +2,12 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  Dpto ATC. www.atc.us.es
 //  ASD subject 3º GTI
-//  version 1. Nov. 2012. Fernando Diaz del Rio
-//  version 2a. March. 2017. Fernando Diaz del Rio
 //  
 //  - Doing several test to reach ILP limits in superscalar processor 
 //  - TEST TIMING OF simple routines 
 //  - this test uses a new version of QueryPerformanceTiming , to measure CPU cycles more precisely using RDTSC asm instr.
 //		Sometimes RDTSC fails and returns values smaller than expected. In this case try the other version of this test (p3c_proy_QPC_alumnos.zip)
-//
-//  Debug mode of VS is very slow (it only serves to check bugs in the code)
-//  Uses Release mode of VS to measure times 
 //-----------------------------------------------------
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -82,8 +76,7 @@ void vectors_init() {
 float apartadoA() {
 	int  i;
 	float z = 0.0;
-	for (i = 0; i < N_ELEM; i++)
-	{
+	for (i = 0; i < N_ELEM; i++) {
 		z = z + a[i];
 	}
 	return z;
@@ -139,22 +132,18 @@ float example() {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char** argv) {
-
 	float var1, var2, var3, var4, var5, var6;
 	int i;
-
 	QPTimer c1, c2, c3, c4, c5, c6;
 
-	c1.Calibrate(); //calibrates timer overhead and set cronometer to zero	
-	// measuring tests
+	c1.Calibrate();
 	for (i = 0; i < N_REPETIC; i++) {
 		vectors_init();
-		c1.Start();  // start timer
-		var1 = example(); // Do the test
-		c1.Stop();  // stop timer
+		c1.Start();
+		var1 = example();
+		c1.Stop();
 		c1.Reset();
 	}
-	// end of    testing
 
 	c2.Calibrate();
 	for (i = 0; i < N_REPETIC; i++) {
@@ -202,7 +191,7 @@ int main(int argc, char** argv) {
 	}
 
 	cout << endl << "ONLY PRINTING OUTPUT VARIABLE TO PREVENT THAT THE COMPILER ELIMINATES FUNCTION CALLS: "
-		<< "\n" << "var1: " << var1 << ", var2: " << var2 << ", var3: " << var3 << ", var4: " << var4 << ", var5: " << var5 << ", var6: " << var6 << endl;
+		<< "\n" << "var1: " << var1 << "\nvar2: " << var2 << "\nvar3: " << var3 << "\nvar4: " << var4 << "\nvar5: " << var5 << "\nvar6: " << var6 << endl;
 
 	cout << "-Number of elements N_ELEM: " << N_ELEM << endl;
 	cout << "-Number of measures example: " << c1.NumberOfMeasures() << endl;
@@ -212,14 +201,6 @@ int main(int argc, char** argv) {
 	cout << "-Number of measures apartadoCPrimCond: " << c5.NumberOfMeasures() << endl;
 	cout << "-Number of measures apartadoCSegCond: " << c6.NumberOfMeasures() << endl;
 	cout << endl;
-
-	// uncomment this if more timing results were needed:
-	/*c1.PrintMinimumTime   (" Minimum time in seconds for example is:   ");
-	c1.PrintMeanTime      (" Mean time in seconds    for example is:   ");
-
-	c2.PrintMinimumCycles (" Minimum time in cycles for problem  is:   ");
-	c2.PrintMeanCycles    (" Mean time in cycles for problem is    :   ");
-	*/
 
 	c1.PrintMinimumCyclesByIteration(" Minimum time in cycles for an element of 'example' is: ", N_ELEM);
 	cout << endl;

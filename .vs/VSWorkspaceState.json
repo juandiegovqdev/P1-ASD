@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\P3C-presentacion",
-    "\\P3C-presentacion\\proyecto_rdtsc"
+    "\\P3C-presentacion\\proyecto_QPC",
+    "\\P3C-presentacion\\proyecto_RDTSC"
   ],
-  "SelectedNode": "\\P3C-presentacion\\proyecto_rdtsc\\p3c_rdtsc.cpp",
+  "SelectedNode": "\\P3C-presentacion\\proyecto_QPC\\ASD_MideRetraso_QPC.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -25,50 +25,61 @@ dinámicas TFG.pdf)
 ## Hardware usado
 ### Enrique García
 
-- Procesador:
-- Velocidad de reloj: 
+- Procesador: Intel Core i5-8250U (8 CPUs)
+- Caché: 
+- Velocidad de reloj: 1.8 GHz (TurboBoost a 3.3 GHz)
 
 ### Juan Diego Villalobos
 
-- Procesador: Intel Core i5
-- Velocidad de reloj: 4GHz
+- Procesador: Intel Core i5-10400 (12 CPUs)
+- Caché: 
+- Velocidad de reloj: 2.9GHz (TurboBoost a 4GHz)
 
 ## Mediciones
 
 ### Juan Diego, primera ejecución
-- example: 3.93066
-- apartadoA: 2.9082
+- example: 3.6665
+- apartadoA: 2.90771
 - apartadoBPrimeraOpcion: 5.81396
-- apartadobSegundaOpcion: 3.271
-- apartadoCPrimCond: 2.90674
-- apartadoCSegCond: 2.90723
+- apartadobSegundaOpcion: 3.27197
+- apartadoCPrimCond: 2.90869
+- apartadoCSegCond: 2.90771
 
 ### Juan Diego, segunda ejecución
 
-- example: 3.64
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 3.6665
+- apartadoA: 2.90723
+- apartadoBPrimeraOpcion: 5.8125
+- apartadobSegundaOpcion: 3.27295
+- apartadoCPrimCond: 2.90869
+- apartadoCSegCond: 2.90771
 
 ### Juan Diego, tercera ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 3.86963
+- apartadoA: 2.90723
+- apartadoBPrimeraOpcion: 5.81299
+- apartadobSegundaOpcion: 3.27246
+- apartadoCPrimCond: 2.9082
+- apartadoCSegCond: 2.90723
 
 ### Juan Diego, cuarta ejecución
 
-- example: 
-- apartadoA: 
-- apartadoBPrimeraOpcion: 
-- apartadobSegundaOpcion: 
-- apartadoCPrimCond: 
-- apartadoCSegCond: 
+- example: 3.84473
+- apartadoA: 2.9082
+- apartadoBPrimeraOpcion: 5.8125
+- apartadobSegundaOpcion: 3.27295
+- apartadoCPrimCond: 2.90723
+- apartadoCSegCond: 2.90527
+
+### Juan Diego, media
+
+- example: 3.76184
+- apartadoA: 2.90759
+- apartadoBPrimeraOpcion: 3.27258
+- apartadobSegundaOpcion: 2.90820
+- apartadoCPrimCond: 2.90820
+- apartadoCSegCond: 2.90698
 
 ### Enrique, primera ejecución
 
