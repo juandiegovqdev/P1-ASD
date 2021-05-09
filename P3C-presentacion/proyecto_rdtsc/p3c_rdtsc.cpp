@@ -25,7 +25,7 @@ using namespace std;
 // repeat several times each test to extract the minimum time
 // and to have the caches filled
 
-#define  N_ELEM (1024*2)
+#define  N_ELEM (1024)
 //big number to have a mean time (but not very big to avoid cache misses) 
 
 __declspec(align(64)) int a_int[N_ELEM], b_int[N_ELEM];
@@ -52,6 +52,8 @@ void vectors_init() {
 		f[i] = (float)i / 9;
 		g[i] = (float)i / 10;
 		h[i] = (float)i / 11;
+
+		cout << "a[i]: " << a[i];
 
 		a_int[i] = i;
 

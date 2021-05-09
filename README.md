@@ -38,12 +38,12 @@ dinámicas TFG.pdf)
 ## Mediciones
 
 ### Juan Diego, primera ejecución
-- example: 3.6665
-- apartadoA: 2.90771
-- apartadoBPrimeraOpcion: 5.81396
-- apartadobSegundaOpcion: 3.27197
-- apartadoCPrimCond: 2.90869
-- apartadoCSegCond: 2.90771
+- example(): 3.6665
+- apartadoA(): 2.90771
+- apartadoBPrimeraOpcion(): 5.81396
+- apartadobSegundaOpcion(): 3.27197
+- apartadoCPrimCond(): 2.90869
+- apartadoCSegCond(): 2.90771
 
 ### Juan Diego, segunda ejecución
 
